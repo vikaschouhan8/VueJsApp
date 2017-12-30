@@ -17,11 +17,11 @@
 		</button>
 	</div>
 	<div id='list'>
-		<ol>
-			<li v-for="todo in todos">
-				{{todo.text}} having {{index}}
+		<ul>
+			<li v-for="(todo, index) in todos">
+				{{index+1}} - {{todo.text}} is of age {{ todo.age}} .
 			</li>
-		</ol>
+		</ul>
 	</div>
 	<div id="rev">
 		<p>{{message}}</p>
