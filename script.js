@@ -19,12 +19,12 @@
 		el: '#list',
 		data: {
 			todos: [
-				{ text:"one6"},
-				{ text:"one1"},
-				{ text:"one9"},
-				{ text:"one7"},
-				{ text:"one5"},
-				{ text:"one6"},
+				{ text:"one6", age:20},
+				{ text:"one1", age:22},
+				{ text:"one9", age:29},
+				{ text:"one7", age:27},
+				{ text:"one5", age:24},
+				{ text:"one6", age:21},
 			]
 		}
 	})
