@@ -4,8 +4,15 @@ var data = {
 
 Vue.component('count', {
 	template: '<button v-on:click="counter = counter + 1">{{counter}}</button>',
+	// it will update all at one click
+	// data: function() {
+	// 	return data
+	// }
+	// it will update onle the button whic his being clicked
 	data: function() {
-		return data
+		return {
+			counter:0
+		}
 	}
 })
 
