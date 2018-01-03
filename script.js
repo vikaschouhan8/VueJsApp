@@ -1,3 +1,11 @@
+Vue.component('new', {
+	template: '<p>Fisrt compoent code</p>'
+})	
+
+Vue.component('item-list', {
+	props: ['item'],
+	template: '<li>{{item.text}}</li>'
+})
 	var v = new Vue({
 		el: '#app',
 		data: {

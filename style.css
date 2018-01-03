@@ -10,3 +10,14 @@
 		.black {
 			background-color: black;
 		}
+		.grey{
+			background-color: grey
+		}
+		.header{
+			height: 64px;
+			color: white;
+			background-color: grey
+		}
+		.spaceAround {
+			margin: 5px;
+		}
